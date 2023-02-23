@@ -1,0 +1,46 @@
+<!DOCTYPE html>  
+ <html>  
+      <head>  
+	  <title>Add Data</title>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+           <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>  
+           <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>            
+           <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" />  
+      </head>  
+      
+<body>
+<div class="container">
+<div class="row">
+   
+	<div class="col-md-2"></div>
+<div class="col-md-8"><br/><br/>
+ <a href="index.php">Home</a>
+    <br/><br/>
+    <form action="add.php" method="post" name="form1">
+       
+         
+                 <div class="form-group">
+             <label for="name">Name</label>
+                <input type="text" name="name"  class="form-control" required>
+            </div>
+             <div class="form-group">
+               <label for="age">Age</label>
+               <input type="text" name="age"  class="form-control" required>
+            </div>
+          <div class="form-group">
+                 <label for="email">Email</label>
+                <input type="text" name="email"  class="form-control" required>
+            
+            </div>
+              
+                <input type="submit" name="Submit" class="btn btn-primary" value="Add" style="width:100px;">
+            
+        
+    </form>
+	</div>
+	<div class="col-md-2"></div>
+	</div>
+	</div>
+</body>
+</html>
